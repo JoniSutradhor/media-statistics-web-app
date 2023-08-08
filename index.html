@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="./app.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+
+<!--navbar-->
+<nav class="bg-white border-b-2 border-gray-100">
+    <div class="mx-auto sm:px-6 lg:px-8" style="padding: 0px 70px">
+        <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-green focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="absolute -inset-0.5"></span>
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div class="flex flex-shrink-0 items-center">
+                    <img class="h-8 w-auto" src="./assets/images/logo_logoipsum.png" alt="Your Company">
+                </div>
+                <div class="hidden sm:ml-6 sm:block">
+                    <div class="flex space-x-4 text-menus">
+                        <a href="#" class="flex px-2 py-2"><span style="color: #58BF73" class="text-sm font-medium">Product</span> <img style="height: 5px; margin-top: 7.5px; padding-left: 2px" src="./assets/images/icon_down_arrow.png" alt=""></a>
+                        <a href="#" class="px-3 py-2 text-sm font-medium">About us</a>
+                        <a href="#" class="px-3 py-2 text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                <a href="#" class="contained-menu font-medium" style="margin-right: 20px">Get Started</a>
+                <a href="#" class="outline-menu text-sm font-medium">Login</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="sm:hidden" id="mobile-menu">
+        <div class="space-y-1 px-2 pb-3 pt-2">
+            <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Product</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About us</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!--Landing section-->
+<div class="flex">
+    <div style="padding: 2px 70px">
+        <h1 class="header-text">Lore ipsum. Dolor sit.</h1>
+        <p class="regular-text" style="padding-bottom: 20px">Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>cillum dolore eu fugiat nulla pariatu. Sed ut perspiciatis
+            <br/>unde omnis iste natus error.</p>
+        <div class="flex">
+            <button class="outline-menu" style="margin-right: 20px">Viverra orci sagittis</button>
+            <button class="contained-menu flex"><span><img src="assets/images/icon_video.png"></span><span style="padding-left: 7px">Get a demo</span></button>
+        </div>
+    </div>
+    <div>
+        <img src="./assets/images/home_image_large.png" alt="">
+    </div>
+</div>
+
+<!--Frist Table Section-->
+<div style="padding: 10px 70px">
+    <div class="flex w-full justify-center" style="padding: 40px">
+        <div style="max-width: 1091px;">
+            <h2 class="typography-header" style="text-align: center">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit</h2>
+        </div>
+    </div>
+    <div class="frist-table" style="overflow-x:auto;">
+        <table>
+            <tr style="background-color: #E3E3E3">
+                <th>Source</th>
+                <th>Ad</th>
+                <th>Cost</th>
+                <th>Sales</th>
+                <th>First time customers</th>
+                <th>Revenue</th>
+                <th>ROAS</th>
+                <th>CAC</th>
+                <th>F.T. ROAS</th>
+            </tr>
+            <tr style="background-color: #B4ECD2">
+                <td>Youtube</td>
+                <td>Male_18+_UGC_Video</td>
+                <td>$2,567.00</td>
+                <td>120</td>
+                <td>90</td>
+                <td>$10,800.00</td>
+                <td>4.21</td>
+                <td>$28.52</td>
+                <td>3.16</td>
+            </tr>
+            <tr style="background-color: #B4ECD2">
+                <td>Youtube</td>
+                <td>Male_18+_UGC_Video</td>
+                <td>$2,567.00</td>
+                <td>120</td>
+                <td>90</td>
+                <td>$10,800.00</td>
+                <td>4.21</td>
+                <td>$28.52</td>
+                <td>3.16</td>
+            </tr>
+            <tr style="background-color: #B4ECD2">
+                <td>Youtube</td>
+                <td>Male_18+_UGC_Video</td>
+                <td>$2,567.00</td>
+                <td>120</td>
+                <td>90</td>
+                <td>$10,800.00</td>
+                <td>4.21</td>
+                <td>$28.52</td>
+                <td>3.16</td>
+            </tr>
+            <tr style="background-color: #B4ECD2">
+                <td>Youtube</td>
+                <td>Male_18+_UGC_Video</td>
+                <td>$2,567.00</td>
+                <td>120</td>
+                <td>90</td>
+                <td>$10,800.00</td>
+                <td>4.21</td>
+                <td>$28.52</td>
+                <td>3.16</td>
+            </tr>
+            <tr style="background-color: #B4ECD2">
+                <td>Youtube</td>
+                <td>Male_18+_UGC_Video</td>
+                <td>$2,567.00</td>
+                <td>120</td>
+                <td>90</td>
+                <td>$10,800.00</td>
+                <td>4.21</td>
+                <td>$28.52</td>
+                <td>3.16</td>
+            </tr>
+            <tr style="background-color: #B4ECD2">
+                <td style="border-radius: 2px">Youtube</td>
+                <td>Male_18+_UGC_Video</td>
+                <td>$2,567.00</td>
+                <td>120</td>
+                <td>90</td>
+                <td>$10,800.00</td>
+                <td>4.21</td>
+                <td>$28.52</td>
+                <td>3.16</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!--Try Out Now Media Section-->
+<div style="padding: 50px 70px" class="flex">
+    <div class="flex items-center">
+        <div class="">
+            <h2 class="typography-header">Sed ut perspiciatis unde omnis iste natus error. <span style="font-weight: bold">Try out!</span></h2>
+            <p class="regular-text" style="padding-bottom: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ullamco esse cillium</p>
+            <button class="contained-menu">Try Out Now!</button>
+        </div>
+    </div>
+    <div class="flex" style="padding: 0px 70px">
+        <div>
+            <div class="apps-icon-container">
+                <img src="./assets/images/logo_drive.png" alt="">
+            </div>
+            <div class="apps-icon-container">
+                <img src="./assets/images/logo_facebook.png" alt="">
+            </div>
+            <div class="apps-icon-container">
+                <img src="./assets/images/logo_shopping_bag.png" alt="">
+            </div>
+        </div>
+        <div style="padding-top: 100px">
+            <div class="apps-icon-container">
+                <img src="./assets/images/logo_ticktok.png" alt="">
+            </div>
+            <div class="apps-icon-container">
+                <img src="./assets/images/logo_printrest.png" alt="">
+            </div>
+            <div class="apps-icon-container">
+                <img src="./assets/images/logo_twiter.png" alt="">
+            </div>
+        </div>
+        <div>
+            <div class="apps-icon-container">
+                <img src="./assets/images/logo_snapchat.png" alt="">
+            </div>
+            <div class="apps-icon-container">
+                <img src="./assets/images/logo_smile.png" alt="">
+            </div>
+            <div class="apps-icon-container">
+                <img src="./assets/images/logo_eye_glass.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Card Section-->
+<div style="padding: 50px 130px; display: flex">
+    <div class="card">
+        <div>
+            <img src="assets/images/icon_availability.png" alt="">
+        </div>
+        <div style="padding-top: 55px">
+            <h2 class="card-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+            <p class="card-body-text">Convallis a cras semper auctor neque. Fringilla est ullamcorper eget nulla facilisi etiam dignissim, eiusmod tempor incididunt ut labore</p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="assets/images/icon_group.png" alt="">
+        </div>
+        <div style="padding-top: 55px">
+            <h2 class="card-header">Sed do eiusmod tempor incididunt ut labore </h2>
+            <p class="card-body-text">Convallis a cras semper auctor neque. Fringilla est ullamcorper eget nulla facilisi etiam dignissim elit duis tristique solicitudin vel</p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="assets/images/icon_group_wave.png" alt="">
+        </div>
+        <div style="padding-top: 55px">
+            <h2 class="card-header">Quis autem vel eum iure reprehenderit qui in ea voluptate</h2>
+            <p class="card-body-text">Look no further for seamless multi-channel attribution. Our process is complete and customizatible, allowing you to view your</p>
+        </div>
+    </div>
+</div>
+
+<!--Try Out Now Table Section-->
+<div style="padding: 100px 70px; display: flex; justify-content: space-evenly">
+    <div>
+        <div>
+            <p class="typography-header">Nemo enim ipsam quia</p>
+            <p class="regular-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu nemo enim</p>
+        </div>
+        <div class="mini-text-card-container flex items-center">
+            <div class="mini-card-icon-container">
+                <img src="./assets/images/icon_tick_mark.png" alt="">
+            </div>
+            <p class="mini-card-text">Sed ut perspiciatis unde</p>
+        </div>
+        <div class="mini-text-card-container flex items-center">
+            <div class="mini-card-icon-container">
+                <img src="./assets/images/icon_tick_mark.png" alt="">
+            </div>
+            <p class="mini-card-text">Omnis iste natus</p>
+        </div>
+        <div class="mini-text-card-container flex items-center">
+            <div class="mini-card-icon-container">
+                <img src="./assets/images/icon_tick_mark.png" alt="">
+            </div>
+            <p class="mini-card-text">Error sit voluptatem</p>
+        </div>
+        <div class="mini-text-card-container flex items-center">
+            <div class="mini-card-icon-container">
+                <img src="./assets/images/icon_tick_mark.png" alt="">
+            </div>
+            <p class="mini-card-text">Accusantium doloremque</p>
+        </div>
+        <button class="contained-menu">Try Out Now!</button>
+    </div>
+    <div class="flex items-center">
+        <div class="try-out-now-left-bar flex flex-col justify-between">
+            <div style="display: flex; flex-direction: column; align-items: center">
+                <div class="try-out-now-left-bar-box"></div>
+                <div class="try-out-now-left-bar-box"></div>
+                <div class="try-out-now-left-bar-box"></div>
+                <div class="try-out-now-left-bar-box"></div>
+                <div class="try-out-now-left-bar-box"></div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center">
+                <div class="try-out-now-left-bar-box"></div>
+            </div>
+        </div>
+        <div style="padding: 30px; background-color: #E9E9E9; height: 464px; border-radius: 0 14px 14px 0">
+            <div>
+                <div style="background-image: url('./assets/images/image_doted_backgroud.png'); position: relative; top: 70px">
+                    <img src="./assets/images/icon_curve_green.png" style="position: absolute; top: -43px"  alt="">
+                    <img src="./assets/images/icon_curve_yellow.png" alt="">
+                </div>
+            </div>
+            <div style="position: relative; top: 100px">
+                <table>
+                    <tr style="background-color: #93D1B5">
+                        <th>Source</th>
+                        <th>Campaign</th>
+                        <th>Cost</th>
+                        <th>Sales</th>
+                        <th>Revenue</th>
+                    </tr>
+                    <tr style="background-color: #D7E4DE">
+                        <td>Google</td>
+                        <td>Logoipsum data</td>
+                        <td>$150</td>
+                        <td>$150</td>
+                        <td>$2716</td>
+                    </tr>
+                    <tr style="background-color: #D7E4DE">
+                        <td>Facebook</td>
+                        <td>Logoipsum data</td>
+                        <td>$150</td>
+                        <td>$150</td>
+                        <td>$2716</td>
+                    </tr>
+                    <tr style="background-color: #D7E4DE">
+                        <td>Instagram</td>
+                        <td>Logoipsum data</td>
+                        <td>$150</td>
+                        <td>$150</td>
+                        <td>$2716</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Earning Data Section-->
+<div style="padding: 0 140px">
+    <div style="display: flex; flex-direction: column;">
+        <p class="typography-header" style="text-align: center; padding-bottom: 10px">Lorem Ipsum is simply dummy text of <br>the printing and typesetting</p>
+        <p class="regular-text"  style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore </p>
+    </div>
+    <div style="padding: 50px 0">
+        <img src="./assets/images/image_wave_group.png" alt="">
+    </div>
+    <div style="padding: 20px 70px" class="flex justify-center">
+        <div style="margin: 20px">
+            <p style="text-align: center; font-weight: bold; padding-bottom: 10px">Facebook data</p>
+            <table>
+                <tr style="background-color: #E3E3E3">
+                    <th>Ad name</th>
+                    <th>Orders</th>
+                    <th>ROAS</th>
+                </tr>
+                <tr style="background-color: #B4ECD2">
+                    <td>All_25+_Static_split_screen</td>
+                    <td>12</td>
+                    <td>3.2</td>
+                </tr>
+                <tr style="background-color: #B4ECD2">
+                    <td>M_25+_Static_split_screen_2</td>
+                    <td>2</td>
+                    <td style="background-color: #F6D45B !important;">1.5</td>
+                </tr>
+            </table>
+        </div>
+        <div  style="margin: 20px">
+            <p style="text-align: center; font-weight: bold; padding-bottom: 10px">Logoipsum data</p>
+            <table>
+                <tr style="background-color: #E3E3E3">
+                    <th>Ad name</th>
+                    <th>Orders</th>
+                    <th>ROAS</th>
+                </tr>
+                <tr style="background-color: #B4ECD2">
+                    <td>All_25+_Static_split_screen</td>
+                    <td>10</td>
+                    <td>2.8</td>
+                </tr>
+                <tr style="background-color: #B4ECD2">
+                    <td>M_25+_Static_split_screen_2</td>
+                    <td>8</td>
+                    <td style="background-color: #64B992">3</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="padding: 20px 70px; display: flex; justify-content: space-around">
+        <div>
+            <p class="typography-header">Consectetur <br>adipiscing elit</p>
+            <p>Convallis a cras semper auctor neque. Fringilla <br>est ullamcorper eget nulla facilisi etiam <br>dignissim viverra</p>
+        </div>
+        <div style="display: flex;">
+            <div style="padding: 0 20px">
+                <div class="touch-icon-container">
+                    <img src="./assets/images/icon_green_line.png" alt="">
+                </div>
+                <div class="touch-card">
+                    <p class="touch-typography" style="color: #58BF73">First Touch</p>
+                </div>
+            </div>
+            <div style="padding: 0 20px">
+                <div class="touch-icon-container">
+                    <img src="./assets/images/icon_yellow_line.png" alt="">
+                </div>
+                <div class="touch-card">
+                    <p class="touch-typography" style="color: #FFC646">Last Touch</p>
+                </div>
+            </div>
+        </div>
+        <div class="touch-round-card" style="display: flex; flex-direction: column; justify-content: center; justify-items: center">
+            <p class="typography-header">3</p>
+            <p>+Custom</p>
+            <p>ones</p>
+        </div>
+    </div>
+    <div style="padding: 20px 120px">
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+            <p class="typography-header" style="text-align: center">Ullamcorper morbi tincidunt ornare massa eget. Quam viverra orci sagittis eu volutpat odio</p>
+            <p class="regular-text" style="text-align: center; padding: 10px 70px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <div style="display: flex; justify-content: center; align-items: center">
+                <div class="apps-icon-container">
+                    <img src="./assets/images/logo_facebook.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="apps-icon-container">
+                    <img src="./assets/images/logo_drive.png" alt="">
+                </div>
+                <div class="apps-icon-container">
+                    <img src="./assets/images/logo_shopping_bag.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Weekly Data Table-->
+<div style="padding: 10px 70px">
+    <div>
+        <table>
+            <tr style="background-color: #BBE5C9">
+                <th>Date</th>
+                <th>Users</th>
+                <th>Week 0</th>
+                <th>Week 1</th>
+                <th>Week 2</th>
+                <th>Week 3</th>
+                <th>Week 4</th>
+                <th>Week 5</th>
+                <th>Week 6</th>
+                <th>Week 7</th>
+                <th>Week 8</th>
+            </tr>
+            <tr style="background-color: #E3E3E3">
+                <td>06-17 - 06-23</td>
+                <td>1476</td>
+                <td style="background-color: #B4ECD2">$209</td>
+                <td style="background-color: #B4ECD2">$219</td>
+                <td style="background-color: #B4ECD2">$230</td>
+                <td style="background-color: #B4ECD2">$242</td>
+                <td style="background-color: #93D1B5">$254</td>
+                <td style="background-color: #93D1B5">$267</td>
+                <td style="background-color: #93D1B5">$280</td>
+                <td>$294</td>
+                <td>$309</td>
+            </tr>
+            <tr style="background-color: #E3E3E3">
+                <td>06-17 - 06-23</td>
+                <td>1476</td>
+                <td style="background-color: #B4ECD2">$209</td>
+                <td style="background-color: #B4ECD2">$219</td>
+                <td style="background-color: #B4ECD2">$230</td>
+                <td style="background-color: #B4ECD2">$242</td>
+                <td style="background-color: #64B992">$254</td>
+                <td style="background-color: #64B992">$267</td>
+                <td style="background-color: #64B992">$280</td>
+                <td style="background-color: #64B992">$294</td>
+                <td></td>
+            </tr>
+            <tr style="background-color: #E3E3E3">
+                <td>06-17 - 06-23</td>
+                <td>1476</td>
+                <td style="background-color: #B4ECD2">$209</td>
+                <td style="background-color: #B4ECD2">$219</td>
+                <td style="background-color: #B4ECD2">$230</td>
+                <td style="background-color: #B4ECD2">$242</td>
+                <td style="background-color: #93D1B5">$254</td>
+                <td style="background-color: #93D1B5">$267</td>
+                <td style="background-color: #B4ECD2">$280</td>
+                <td>$294</td>
+                <td></td>
+            </tr>
+            <tr style="background-color: #E3E3E3">
+                <td>06-17 - 06-23</td>
+                <td>1476</td>
+                <td>$209</td>
+                <td>$219</td>
+                <td>$230</td>
+                <td>$242</td>
+                <td>$254</td>
+                <td>$267</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="background-color: #E3E3E3">
+                <td>06-17 - 06-23</td>
+                <td>1476</td>
+                <td style="background-color: #B4ECD2">$209</td>
+                <td style="background-color: #B4ECD2">$219</td>
+                <td style="background-color: #B4ECD2">$230</td>
+                <td style="background-color: #B4ECD2">$242</td>
+                <td style="background-color: #64B992">$254</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="background-color: #E3E3E3">
+                <td>06-17 - 06-23</td>
+                <td>1476</td>
+                <td style="background-color: #93D1B5">$209</td>
+                <td style="background-color: #93D1B5">$219</td>
+                <td style="background-color: #93D1B5">$230</td>
+                <td style="background-color: #64B992">$242</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="background-color: #E3E3E3">
+                <td>06-17 - 06-23</td>
+                <td>1476</td>
+                <td style="background-color: #64B992">$209</td>
+                <td style="background-color: #64B992">$219</td>
+                <td style="background-color: #64B992">$230</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!--Apply Section-->
+<div style="padding: 50px 140px 80px 140px" class="flex justify-center">
+    <div style="padding: 0 70px">
+        <p class="typography-header">Ullamcorper morbi tincidunt <br/>ornare massa eget</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/>tempor incididunt ut labore </p>
+    </div>
+    <div style="padding: 0 100px" class="flex items-center">
+        <button class="contained-menu self-center">Apply</button>
+    </div>
+</div>
+
+<!--Footer-->
+<div class="flex justify-center" style="background-color: #C9C9C9; padding: 70px 0">
+    <div style="padding-right: 70px">
+        <p class="footer-menu-header">Products</p>
+        <p class="footer-menu-text">Features</p>
+        <p class="footer-menu-text">Enterprice</p>
+        <p class="footer-menu-text">Innovation</p>
+        <p class="footer-menu-text">Offline</p>
+    </div>
+    <div style="padding-right: 70px">
+        <p class="footer-menu-header">Company</p>
+        <p class="footer-menu-text">About</p>
+        <p class="footer-menu-text">Our Story</p>
+        <p class="footer-menu-text">Careers</p>
+    </div>
+    <div style="padding-right: 50px">
+        <p class="footer-menu-header">Support</p>
+        <p class="footer-menu-text">Documentation</p>
+        <p class="footer-menu-text">Community</p>
+        <p class="footer-menu-text">Contact</p>
+        <p class="footer-menu-text">FAQ</p>
+    </div>
+    <div style="border-right: 2px solid #ABADB0"></div>
+    <div style="padding-left: 70px">
+        <img src="./assets/images/logo_logoipsum_black.png" alt="">
+        <p class="footer-medium-text" style="padding-bottom: 15px; padding-top: 7px">Tristique senectus et netus <br />et malesuada fames</p>
+        <p class="footer-copyright-text">©2023 Logoipsum. All rights reserved</p>
+    </div>
+</div>
+
+
+</body>
+</html>

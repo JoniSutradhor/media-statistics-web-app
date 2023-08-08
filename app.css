@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-custome-blue {
+    color: deepskyblue;
+}
+
+.text-menus a:hover {
+    color: #58BF73;
+}
+
+.contained-menu {
+    background-color: #58BF73;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 35px !important;
+}
+
+.outline-menu {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 35px !important;
+}
+
+.header-text {
+    font-family: Roboto;
+    font-size: 126px;
+    font-weight: 800;
+    line-height: 144px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.regular-text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.typography-header {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 65px;
+    letter-spacing: 0em;
+    /*text-align: center;*/
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #F1F1F1;
+    text-align: center;
+    padding: 8px 10px;
+}
+
+.apps-icon-container {
+    width: 141.7px;
+    height: 141.7px;
+    border-radius: 20px;
+    border: 2px;
+    /*box-shadow: 0px 0px 10px #EEEEEE99;*/
+    box-shadow: 0 4px 8px 0 #EEEEEE99, 0 6px 20px 0 #EEEEEE99;
+    margin: 50px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 448px;
+    height: 423px;
+    border-radius: 20px;
+    border: 2px;
+    box-shadow: 0 4px 8px 0 #EEEEEE99, 0 6px 20px 0 #EEEEEE99;
+    margin: 10px;
+    padding: 40px;
+}
+
+.card-header {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.card-body-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mini-card-icon-container {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 0 20px;
+}
+
+.mini-card-text {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mini-text-card-container {
+    width: 510px;
+    height: 72px;
+    border-radius: 20px;
+    border: 2px;
+    box-shadow: 0 4px 8px 0 #EEEEEE99, 0 6px 20px 0 #EEEEEE99;
+    margin: 12px 0;
+}
+
+.try-out-now-left-bar {
+    width: 99px;
+    height: 464px;
+    border-radius: 14px 0px 0px 14px;
+    background-color: #B4ECD2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.try-out-now-left-bar-box {
+    width: 65px;
+    height: 23px;
+    border-radius: 4px;
+    background-color: #93D1B5;
+    margin: 5px 0;
+}
+
+
+
+.touch-icon-container {
+    width: 185px;
+    height: 196px;
+    border-radius: 20px;
+    border: 2px;
+    box-shadow: 0px 0px 10px #EEEEEE99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.touch-card {
+    width: 185px;
+    height: 46px;
+    border-radius: 10px;
+    border: 2px;
+    box-shadow: 0px 0px 10px #EEEEEE99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.touch-round-card {
+    width: 191px;
+    height: 202px;
+    border: 2px;
+    box-shadow: 0px 0px 10px #EEEEEE99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+.touch-typography {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.footer-menu-header {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.footer-menu-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.footer-medium-text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer-copyright-text {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
